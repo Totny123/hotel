@@ -31,3 +31,11 @@ export function editEmployee(data) {
     data,
   });
 }
+
+export function getInfo(query) {
+  return request({
+    url: "/employee/info",
+    method: "get",
+    params: query,
+  });
+}

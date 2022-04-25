@@ -97,7 +97,7 @@
         </el-form-item>
       </el-form>
     </el-dialog>
-    <el-dialog title="编辑房间" :visible.sync="editDialogVisible" width="30%">
+    <el-dialog title="编辑员工" :visible.sync="editDialogVisible" width="30%">
       <el-form
         ref="editForm"
         :model="editForm"
