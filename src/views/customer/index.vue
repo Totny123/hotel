@@ -1,10 +1,10 @@
 <template>
-  <div></div>
+  <div>客户管理</div>
 </template>
 
 <script>
 export default {
-  name: "Index",
+  name: "Customer",
 };
 </script>
 

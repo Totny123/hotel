@@ -1,10 +1,10 @@
 <template>
-  <div></div>
+  <div>入住登记</div>
 </template>
 
 <script>
 export default {
-  name: "Index",
+  name: "CheckIn",
 };
 </script>
 

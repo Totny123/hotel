@@ -1,10 +1,10 @@
 <template>
-  <div></div>
+  <div>客房类型管理</div>
 </template>
 
 <script>
 export default {
-  name: "Index",
+  name: "RoomType",
 };
 </script>
 

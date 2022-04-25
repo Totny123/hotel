@@ -1,10 +1,10 @@
 <template>
-  <div></div>
+  <div>退房登记</div>
 </template>
 
 <script>
 export default {
-  name: "Index",
+  name: "CheckOut",
 };
 </script>
 
