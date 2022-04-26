@@ -31,7 +31,7 @@
         </h1>
       </router-link>
       <router-link v-else key="expand" class="sidebar-logo-link" to="/">
-        <img v-if="logo" :src="logo" class="sidebar-logo" />
+        <!-- <img v-if="logo" :src="logo" class="sidebar-logo" /> -->
         <h1
           class="sidebar-title"
           :style="{

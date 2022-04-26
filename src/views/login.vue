@@ -62,7 +62,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>Copyright © 2018-2022 ruoyi.vip All Rights Reserved.</span>
+      <span>Copyright © 2022 liujunfeng All Rights Reserved.</span>
     </div>
   </div>
 </template>
@@ -158,7 +158,7 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-image: url("../assets/images/login-background.jpg");
+  background-image: url("../assets/images/login-background2.jpg");
   background-size: cover;
 }
 .title {
@@ -212,5 +212,9 @@ export default {
 }
 .login-code-img {
   height: 38px;
+}
+.el-select,
+.el-input_inner {
+  width: 100%;
 }
 </style>

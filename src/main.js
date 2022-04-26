@@ -42,9 +42,11 @@ import DictTag from "@/components/DictTag";
 import VueMeta from "vue-meta";
 // 字典数据组件
 import DictData from "@/components/DictData";
+import Avue from "@smallwei/avue";
+import "@smallwei/avue/lib/index.css";
 
 // 全局方法挂载
-
+Vue.use(Avue);
 Vue.prototype.parseTime = parseTime;
 Vue.prototype.resetForm = resetForm;
 Vue.prototype.addDateRange = addDateRange;
