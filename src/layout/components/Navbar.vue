@@ -24,11 +24,12 @@
         trigger="click"
       >
         <div class="avatar-wrapper">
-          <img :src="avatar" class="user-avatar" />
+          <!-- <img :src="avatar" class="user-avatar" /> -->
+          <div class="user-avatar feng"><i class="el-icon-user-solid"></i></div>
           <i class="el-icon-caret-bottom" />
         </div>
         <el-dropdown-menu slot="dropdown">
-          <router-link to="/user/profile">
+          <router-link to="/my/index">
             <el-dropdown-item>个人中心</el-dropdown-item>
           </router-link>
           <el-dropdown-item @click.native="setting = true">
@@ -191,5 +192,10 @@ export default {
       }
     }
   }
+}
+.feng {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
